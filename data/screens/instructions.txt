@@ -1,0 +1,13 @@
+screen= "fazenda_4.png"
+
+music= "JogoIC3.ogg"
+
+title= "Instruções" 50 255 255 0 50 2
+title= "Coletar todos os items sem ser"  150 255 255 255 40 2
+title= "capturado e antes de o tempo acabar" 210 255 255 255 40 2
+
+title= "Controles" 320 255 255 0 50 2
+title= "Virar personagem: Movimentos da Órtese" 420 255 255 255 40 2
+title= "Sair de Tela:                       ESC" 480 255 255 255 40 2
+
+return= main

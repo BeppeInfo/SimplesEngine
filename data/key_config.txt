@@ -1,0 +1,23 @@
+# seta cima + Lshift
+key_triggers= 11 273 304
+
+# seta baixo + Lshift
+key_triggers= 10 274 304
+
+# seta esquerda + Lshift
+key_triggers= 9 276 304
+
+# seta direita + Lshift
+key_triggers= 8 275 304
+
+# seta cima
+key_triggers= 7 273  
+
+# seta baixo
+key_triggers= 6 274 
+
+# seta esquerda
+key_triggers= 5 276 
+
+# seta direita
+key_triggers= 4 275 

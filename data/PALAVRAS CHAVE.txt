@@ -1,0 +1,46 @@
+VALORES LIDOS DOS ARQUIVOS DE CONFIGURAÇÃO DE TELA NA SUA INICIALIZAÇÃO (NÃO ALTERAM NADA EM TELAS JÁ CRIADAS !!!)
+
+Definir Tela Padrão:
+screen= "imagem de fundo.[png/jpg]"
+
+Definir Tela de Jogo:
+game= "imagem de fundo.[png/jpg]" "script de inicialização.py" "script de atualização.py"
+
+Definir Tela de Menu:
+menu= "imagem de fundo.[png/jpg]"
+
+Imprimir texto centralizado:
+title= "texto" <altura> <cor_R> <cor_G> <cor_B> <tamanho da fonte> <espessura da borda>
+
+Imprimir texto em posição definida:
+text= "texto" <posição_X> <posição_Y> <cor_R> <cor_G> <cor_B> <tamanho da fonte> <espessura da borda>
+
+Reproduzir música de fundo:
+music= "nome da música.[mp3/ogg]"
+
+Definir botão para nova tela:
+button= <posição_X> <posição_Y> <largura> <altura> <espessura_borda> tela_destino "texto do botão"
+
+Definir caixa de texto:
+text_box= <posição_X> <posição_Y> <largura> <altura> <espessura_borda> variavel_string_correspondente
+
+Definir caixa de seleção de arquivo:
+file_box= <posição_X> <posição_Y> <largura> <altura> <espessura_borda> "diretório de busca" variavel_string_correspondente
+
+Definir caixa de seleção de valor numérico:
+number_box= <posição_X> <posição_Y> <largura> <altura> <espessura_borda> variavel_numerica_correspondente <valor_mínimo> <valor_máximo> " unidade"
+
+Definir caixa para registrar valor de Epos especificada:
+epos_box= <posição_X> <posição_Y> <largura> <altura> <espessura_borda> variavel_numerica_correspondente <id_epos> <modo> <ativo>
+
+Definir valor numérico global:
+number_value= chave <valor>
+
+Definir valor string global:
+string_value= chave "valor"
+
+Definir tela de retorno (ao pressionar ESC) da tela atual:
+return= tela_destino
+
+Pular Linha:
+#

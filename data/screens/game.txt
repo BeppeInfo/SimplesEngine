@@ -1,0 +1,15 @@
+game= "placar.png" "init_game.py" "game_logic.py"
+
+music= "JogoIC3fast.ogg"
+
+text= "Pontos:" 100 10 255 255 255 30 2
+number_box= 220 5 70 40 0 game_points 0 0 ""
+
+text= "Tempo Restante:" 350 10 255 255 255 30 2
+number_box= 600 5 70 40 0 remaining_game_time 0 50 " s"
+
+number_box= 730 560 70 40 0 fps 0 0 " fps"
+
+epos_box= 2 558 200 40 2 epos_value 0 0 1
+
+return= game_pause

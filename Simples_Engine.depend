@@ -1,0 +1,1400 @@
+# depslib dependency file v1.0
+1358791652 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\main.cpp
+	"include/utils.h"
+	"include/Game.h"
+	"include/Menu.h"
+
+1358737678 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\utils.h
+	"SDL\SDL.h"
+	"SDL\SDL_image.h"
+	"SDL\SDL_ttf.h"
+	"SDL\SDL_mixer.h"
+	"SDL\SDL_rotozoom.h"
+	"SDL\SDL_net.h"
+	<windows.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<SDL/SDL_rotozoom.h>
+	<SDL/SDL_net.h>
+	<iostream>
+	<iomanip>
+	<fstream>
+	<sstream>
+	<vector>
+	<map>
+	<bitset>
+	<algorithm>
+	<string>
+	<cstdio>
+	<cstring>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<dirent.h>
+	<sys/stat.h>
+	"include/SDLMappy.h"
+	"include/World.h"
+	"include/Arbiter.h"
+	"include/Body.h"
+	"include/MathUtils.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326110988 c:\program files\codeblocks\mingw\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_platform.h
+
+1326110994 c:\program files\codeblocks\mingw\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1250312282 c:\program files\codeblocks\mingw\include\sys\types.h
+	<_mingw.h>
+	<stddef.h>
+
+1250312274 c:\program files\codeblocks\mingw\include\_mingw.h
+
+1250312280 c:\program files\codeblocks\mingw\include\stdio.h
+	<_mingw.h>
+	<stddef.h>
+	<stdarg.h>
+	<sys/types.h>
+
+1250312280 c:\program files\codeblocks\mingw\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+
+1250312278 c:\program files\codeblocks\mingw\include\malloc.h
+	<_mingw.h>
+	<stdlib.h>
+
+1250312278 c:\program files\codeblocks\mingw\include\memory.h
+	<string.h>
+
+1250312280 c:\program files\codeblocks\mingw\include\string.h
+	<_mingw.h>
+	<stddef.h>
+
+1250312280 c:\program files\codeblocks\mingw\include\strings.h
+	<string.h>
+
+1250312276 c:\program files\codeblocks\mingw\include\inttypes.h
+	<_mingw.h>
+	<stdint.h>
+	<stddef.h>
+
+1250312280 c:\program files\codeblocks\mingw\include\stdint.h
+	<stddef.h>
+
+1250312276 c:\program files\codeblocks\mingw\include\ctype.h
+	<_mingw.h>
+	<stddef.h>
+
+1326111000 c:\program files\codeblocks\mingw\include\sdl\begin_code.h
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\close_code.h
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1250312278 c:\program files\codeblocks\mingw\include\process.h
+	<_mingw.h>
+	<sys/types.h>
+	<stdint.h>
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_keysym.h
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325803234 c:\program files\codeblocks\mingw\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325807594 c:\program files\codeblocks\mingw\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325803740 c:\program files\codeblocks\mingw\include\sdl\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files\codeblocks\mingw\include\sdl\sdl_types.h
+	"SDL_stdinc.h"
+
+1336977806 c:\program files\codeblocks\mingw\include\sdl\sdl_rotozoom.h
+	<math.h>
+	"SDL.h"
+
+1250312278 c:\program files\codeblocks\mingw\include\math.h
+	<_mingw.h>
+
+1325807126 c:\program files\codeblocks\mingw\include\sdl\sdl_net.h
+	"SDL.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1228530732 c:\program files\codeblocks\mingw\include\windows.h
+	<winresrc.h>
+	<stdarg.h>
+	<windef.h>
+	<wincon.h>
+	<winbase.h>
+	<wingdi.h>
+	<winuser.h>
+	<winnls.h>
+	<winver.h>
+	<winnetwk.h>
+	<winreg.h>
+	<winsvc.h>
+	<cderr.h>
+	<dde.h>
+	<ddeml.h>
+	<dlgs.h>
+	<imm.h>
+	<lzexpand.h>
+	<mmsystem.h>
+	<nb30.h>
+	<rpc.h>
+	<shellapi.h>
+	<winperf.h>
+	<commdlg.h>
+	<winspool.h>
+	<winsock2.h>
+	<winsock.h>
+	<ole2.h>
+
+1228530732 c:\program files\codeblocks\mingw\include\winresrc.h
+	<winuser.h>
+	<winnt.h>
+	<winver.h>
+	<dde.h>
+	<dlgs.h>
+	<commctrl.h>
+
+1228530734 c:\program files\codeblocks\mingw\include\winuser.h
+
+1228530732 c:\program files\codeblocks\mingw\include\winnt.h
+	<winerror.h>
+	<string.h>
+	<basetsd.h>
+	<pshpack4.h>
+	<poppack.h>
+
+1228530732 c:\program files\codeblocks\mingw\include\winerror.h
+
+1228530712 c:\program files\codeblocks\mingw\include\basetsd.h
+
+1228530724 c:\program files\codeblocks\mingw\include\pshpack4.h
+
+1228530724 c:\program files\codeblocks\mingw\include\poppack.h
+
+1228530734 c:\program files\codeblocks\mingw\include\winver.h
+
+1228530714 c:\program files\codeblocks\mingw\include\dde.h
+
+1228530714 c:\program files\codeblocks\mingw\include\dlgs.h
+
+1228530714 c:\program files\codeblocks\mingw\include\commctrl.h
+	<prsht.h>
+
+1228530724 c:\program files\codeblocks\mingw\include\prsht.h
+
+1228530732 c:\program files\codeblocks\mingw\include\windef.h
+	<winnt.h>
+
+1228530732 c:\program files\codeblocks\mingw\include\wincon.h
+
+1228530730 c:\program files\codeblocks\mingw\include\winbase.h
+
+1228530732 c:\program files\codeblocks\mingw\include\wingdi.h
+
+1228530732 c:\program files\codeblocks\mingw\include\winnls.h
+
+1228530732 c:\program files\codeblocks\mingw\include\winnetwk.h
+
+1228530732 c:\program files\codeblocks\mingw\include\winreg.h
+
+1228530734 c:\program files\codeblocks\mingw\include\winsvc.h
+
+1228530712 c:\program files\codeblocks\mingw\include\cderr.h
+
+1228530714 c:\program files\codeblocks\mingw\include\ddeml.h
+
+1228530716 c:\program files\codeblocks\mingw\include\imm.h
+
+1228530720 c:\program files\codeblocks\mingw\include\lzexpand.h
+
+1228530722 c:\program files\codeblocks\mingw\include\mmsystem.h
+
+1228530722 c:\program files\codeblocks\mingw\include\nb30.h
+
+1228530726 c:\program files\codeblocks\mingw\include\rpc.h
+	<windows.h>
+	<rpcdce.h>
+	<rpcnsi.h>
+	<rpcnterr.h>
+	<winerror.h>
+	<excpt.h>
+
+1228530726 c:\program files\codeblocks\mingw\include\rpcdce.h
+	<basetyps.h>
+	<rpcdcep.h>
+
+1228530712 c:\program files\codeblocks\mingw\include\basetyps.h
+
+1228530728 c:\program files\codeblocks\mingw\include\rpcdcep.h
+
+1228530728 c:\program files\codeblocks\mingw\include\rpcnsi.h
+
+1228530728 c:\program files\codeblocks\mingw\include\rpcnterr.h
+
+1250312276 c:\program files\codeblocks\mingw\include\excpt.h
+	<_mingw.h>
+	<windef.h>
+
+1228530728 c:\program files\codeblocks\mingw\include\shellapi.h
+	<pshpack2.h>
+	<poppack.h>
+
+1228530724 c:\program files\codeblocks\mingw\include\pshpack2.h
+
+1228530732 c:\program files\codeblocks\mingw\include\winperf.h
+
+1228530714 c:\program files\codeblocks\mingw\include\commdlg.h
+	<unknwn.h>
+	<prsht.h>
+
+1228530730 c:\program files\codeblocks\mingw\include\unknwn.h
+	<windows.h>
+	<objfwd.h>
+	<wtypes.h>
+
+1228530724 c:\program files\codeblocks\mingw\include\objfwd.h
+	<basetyps.h>
+
+1228530734 c:\program files\codeblocks\mingw\include\wtypes.h
+	<rpc.h>
+	<rpcndr.h>
+
+1228530728 c:\program files\codeblocks\mingw\include\rpcndr.h
+	<rpcnsip.h>
+	<objfwd.h>
+
+1228530728 c:\program files\codeblocks\mingw\include\rpcnsip.h
+
+1228530734 c:\program files\codeblocks\mingw\include\winspool.h
+
+1228530734 c:\program files\codeblocks\mingw\include\winsock2.h
+	<windows.h>
+
+1228530732 c:\program files\codeblocks\mingw\include\winsock.h
+	<windows.h>
+	<mswsock.h>
+
+1228530722 c:\program files\codeblocks\mingw\include\mswsock.h
+
+1228530724 c:\program files\codeblocks\mingw\include\ole2.h
+	<winerror.h>
+	<objbase.h>
+	<olectlid.h>
+	<oleauto.h>
+	<oleidl.h>
+
+1228530724 c:\program files\codeblocks\mingw\include\objbase.h
+	<rpc.h>
+	<rpcndr.h>
+	<stdlib.h>
+	<basetyps.h>
+	<wtypes.h>
+	<unknwn.h>
+	<objidl.h>
+	<cguid.h>
+
+1228530724 c:\program files\codeblocks\mingw\include\objidl.h
+	<objfwd.h>
+
+1228530712 c:\program files\codeblocks\mingw\include\cguid.h
+
+1228530724 c:\program files\codeblocks\mingw\include\olectlid.h
+
+1228530724 c:\program files\codeblocks\mingw\include\oleauto.h
+	<oaidl.h>
+
+1228530722 c:\program files\codeblocks\mingw\include\oaidl.h
+	<windows.h>
+	<ole2.h>
+
+1228530724 c:\program files\codeblocks\mingw\include\oleidl.h
+	<objfwd.h>
+
+1250312276 c:\program files\codeblocks\mingw\include\dirent.h
+	<_mingw.h>
+	<io.h>
+
+1250312276 c:\program files\codeblocks\mingw\include\io.h
+	<_mingw.h>
+	<sys/types.h>
+
+1250312282 c:\program files\codeblocks\mingw\include\sys\stat.h
+	<_mingw.h>
+	<stddef.h>
+	<sys/types.h>
+
+1328012286 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\sdlmappy.h
+	<cstring>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<fstream>
+	<iostream>
+
+1328416972 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\world.h
+	<vector>
+	<map>
+	"MathUtils.h"
+	"Arbiter.h"
+
+1169770244 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\mathutils.h
+	<math.h>
+	<float.h>
+	<assert.h>
+	<stdlib.h>
+
+1250312276 c:\program files\codeblocks\mingw\include\float.h
+	<_mingw.h>
+
+1250312274 c:\program files\codeblocks\mingw\include\assert.h
+	<_mingw.h>
+
+1236515296 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\arbiter.h
+	"MathUtils.h"
+
+1328011604 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\body.h
+	"MathUtils.h"
+	<vector>
+
+1358791698 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\game.h
+	"include/GameScreen.h"
+	"include/Hero.h"
+	"C:\Python27\include\Python.h"
+	</usr/include/python2.7/Python.h>
+
+1358778084 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\gamescreen.h
+	"include/utils.h"
+	"include/InputBoxes.h"
+	"include/SoundManager.h"
+	"include/TextManager.h"
+	"include/LoggerClient.h"
+	"include/EposManager.h"
+
+1358778592 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\inputboxes.h
+	"include/utils.h"
+
+1345528794 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\soundmanager.h
+	"include/utils.h"
+
+1345528934 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\textmanager.h
+	"include/utils.h"
+
+1358697186 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\loggerclient.h
+	"include/utils.h"
+
+1358788917 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\eposmanager.h
+	"include/utils.h"
+	"include/EposCmdWindows.h"
+	"include/EposCmdUnix.h"
+	"include/WinTypes.h"
+	"include/ftd2xx.h"
+
+1344410986 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\eposcmdwindows.h
+
+1345210608 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\eposcmdunix.h
+
+1345210618 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\wintypes.h
+	<sys/time.h>
+
+1250312282 c:\program files\codeblocks\mingw\include\sys\time.h
+	<time.h>
+
+1250312280 c:\program files\codeblocks\mingw\include\time.h
+	<_mingw.h>
+	<stddef.h>
+
+1322483132 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\ftd2xx.h
+	<pthread.h>
+	"WinTypes.h"
+
+989768848 c:\program files\codeblocks\mingw\include\pthread.h
+	<windows.h>
+	"config.h"
+	<time.h>
+	<signal.h>
+	<setjmp.h>
+	<limits.h>
+	"need_errno.h"
+	<errno.h>
+	<sched.h>
+	<sys/types.h>
+
+1250312280 c:\program files\codeblocks\mingw\include\signal.h
+	<_mingw.h>
+
+1250312278 c:\program files\codeblocks\mingw\include\setjmp.h
+	<_mingw.h>
+
+1250312278 c:\program files\codeblocks\mingw\include\limits.h
+	<_mingw.h>
+
+1250312276 c:\program files\codeblocks\mingw\include\errno.h
+	<_mingw.h>
+
+989768848 c:\program files\codeblocks\mingw\include\sched.h
+	"need_errno.h"
+	<errno.h>
+	<sys/types.h>
+	<time.h>
+
+1330011614 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\hero.h
+	"include/Character.h"
+
+1358744577 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\character.h
+	"include/Object.h"
+	"include/Animation.h"
+
+1358744577 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\object.h
+	"include/utils.h"
+
+1358719631 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\animation.h
+	"include/utils.h"
+
+1299588192 c:\python27\include\python.h
+	"patchlevel.h"
+	"pyconfig.h"
+	"pymacconfig.h"
+	<limits.h>
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<stdlib.h>
+	<unistd.h>
+	<stddef.h>
+	<assert.h>
+	"pyport.h"
+	"pymath.h"
+	"pymem.h"
+	"object.h"
+	"objimpl.h"
+	"pydebug.h"
+	"unicodeobject.h"
+	"intobject.h"
+	"boolobject.h"
+	"longobject.h"
+	"floatobject.h"
+	"complexobject.h"
+	"rangeobject.h"
+	"stringobject.h"
+	"memoryobject.h"
+	"bufferobject.h"
+	"bytesobject.h"
+	"bytearrayobject.h"
+	"tupleobject.h"
+	"listobject.h"
+	"dictobject.h"
+	"enumobject.h"
+	"setobject.h"
+	"methodobject.h"
+	"moduleobject.h"
+	"funcobject.h"
+	"classobject.h"
+	"fileobject.h"
+	"cobject.h"
+	"pycapsule.h"
+	"traceback.h"
+	"sliceobject.h"
+	"cellobject.h"
+	"iterobject.h"
+	"genobject.h"
+	"descrobject.h"
+	"warnings.h"
+	"weakrefobject.h"
+	"codecs.h"
+	"pyerrors.h"
+	"pystate.h"
+	"pyarena.h"
+	"modsupport.h"
+	"pythonrun.h"
+	"ceval.h"
+	"sysmodule.h"
+	"intrcheck.h"
+	"import.h"
+	"abstract.h"
+	"compile.h"
+	"eval.h"
+	"pyctype.h"
+	"pystrtod.h"
+	"pystrcmp.h"
+	"dtoa.h"
+	"pyfpe.h"
+	<pth.h>
+
+1334110714 c:\python27\include\patchlevel.h
+
+1334110716 c:\python27\include\pyconfig.h
+	<io.h>
+	<stdlib.h>
+	<float.h>
+	<basetsd.h>
+	<io.h>
+	<stdio.h>
+
+1306745632 c:\python27\include\pymacconfig.h
+
+1250312280 c:\program files\codeblocks\mingw\include\unistd.h
+	<io.h>
+	<process.h>
+	<getopt.h>
+	<sys/types.h>
+
+1250312276 c:\program files\codeblocks\mingw\include\getopt.h
+	<_mingw.h>
+
+1299588192 c:\python27\include\pyport.h
+	"pyconfig.h"
+	<inttypes.h>
+	<stdint.h>
+	<stdlib.h>
+	<ieeefp.h>
+	<math.h>
+	<sys/time.h>
+	<time.h>
+	<sys/time.h>
+	<time.h>
+	<sys/select.h>
+	<sys/types.h>
+	"unixstuff.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<stat.h>
+	<sys/types.h>
+	<sys/termio.h>
+	<termios.h>
+	<osreldate.h>
+	<ctype.h>
+	<wctype.h>
+
+1250312282 c:\program files\codeblocks\mingw\include\wctype.h
+	<_mingw.h>
+	<stddef.h>
+
+1299588192 c:\python27\include\pymath.h
+	"pyconfig.h"
+
+1299588192 c:\python27\include\pymem.h
+	"pyport.h"
+
+1330131500 c:\python27\include\object.h
+
+1299588192 c:\python27\include\objimpl.h
+	"pymem.h"
+
+1330131500 c:\python27\include\pydebug.h
+
+1299588192 c:\python27\include\unicodeobject.h
+	<stdarg.h>
+	<ctype.h>
+	<time.h>
+	<wchar.h>
+	<wctype.h>
+
+1250312282 c:\program files\codeblocks\mingw\include\wchar.h
+	<_mingw.h>
+	<stddef.h>
+	<stdarg.h>
+	<wctype.h>
+	<sys/types.h>
+	<stdint.h>
+	<stdint.h>
+
+1299588192 c:\python27\include\intobject.h
+
+1299588192 c:\python27\include\boolobject.h
+
+1299588192 c:\python27\include\longobject.h
+
+1299588192 c:\python27\include\floatobject.h
+
+1299588192 c:\python27\include\complexobject.h
+
+1299588192 c:\python27\include\rangeobject.h
+
+1299588192 c:\python27\include\stringobject.h
+	<stdarg.h>
+
+1299588192 c:\python27\include\memoryobject.h
+
+1299588192 c:\python27\include\bufferobject.h
+
+1299588192 c:\python27\include\bytesobject.h
+
+1299588192 c:\python27\include\bytearrayobject.h
+	<stdarg.h>
+
+1299588192 c:\python27\include\tupleobject.h
+
+1299588192 c:\python27\include\listobject.h
+
+1299588192 c:\python27\include\dictobject.h
+
+1299587976 c:\python27\include\enumobject.h
+
+1299588192 c:\python27\include\setobject.h
+
+1299588192 c:\python27\include\methodobject.h
+
+1299588192 c:\python27\include\moduleobject.h
+
+1299588192 c:\python27\include\funcobject.h
+
+1299588192 c:\python27\include\classobject.h
+
+1330131500 c:\python27\include\fileobject.h
+
+1299588192 c:\python27\include\cobject.h
+
+1299588192 c:\python27\include\pycapsule.h
+
+1299588192 c:\python27\include\traceback.h
+
+1299588192 c:\python27\include\sliceobject.h
+
+1299588192 c:\python27\include\cellobject.h
+
+1299588192 c:\python27\include\iterobject.h
+
+1299588192 c:\python27\include\genobject.h
+
+1299588192 c:\python27\include\descrobject.h
+
+1299588192 c:\python27\include\warnings.h
+
+1299588192 c:\python27\include\weakrefobject.h
+
+1299588192 c:\python27\include\codecs.h
+
+1299588192 c:\python27\include\pyerrors.h
+	<stdarg.h>
+
+1330131500 c:\python27\include\pystate.h
+
+1299588192 c:\python27\include\pyarena.h
+
+1299588192 c:\python27\include\modsupport.h
+	<stdarg.h>
+
+1330131500 c:\python27\include\pythonrun.h
+
+1299588192 c:\python27\include\ceval.h
+
+1299588192 c:\python27\include\sysmodule.h
+
+1299587976 c:\python27\include\intrcheck.h
+
+1299588192 c:\python27\include\import.h
+
+1306745632 c:\python27\include\abstract.h
+
+1299588192 c:\python27\include\compile.h
+	"code.h"
+
+1299588192 c:\python27\include\code.h
+
+1299588192 c:\python27\include\eval.h
+
+1330131500 c:\python27\include\pyctype.h
+
+1299588192 c:\python27\include\pystrtod.h
+
+1299588192 c:\python27\include\pystrcmp.h
+
+1299588192 c:\python27\include\dtoa.h
+
+1299587976 c:\python27\include\pyfpe.h
+	<signal.h>
+	<setjmp.h>
+	<math.h>
+
+1358738774 c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\include\menu.h
+	"include/GameScreen.h"
+
+1358719364 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\src\animation.cpp
+	"include/Animation.h"
+	"include/Game.h"
+
+1358603383 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\src\arbiter.cpp
+	"include/Arbiter.h"
+	"include/Body.h"
+	"include/World.h"
+
+1358603434 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\src\body.cpp
+	"include/Body.h"
+	<iostream>
+
+1358744636 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\src\character.cpp
+	"include/Character.h"
+	"include/Game.h"
+
+1342628742 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\src\collide.cpp
+	"include/Arbiter.h"
+	"include/Body.h"
+
+1358789080 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\src\eposmanager.cpp
+	"include/EposManager.h"
+
+1358793299 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\src\game.cpp
+	"include/Game.h"
+
+1358778084 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\src\gamescreen.cpp
+	"include/GameScreen.h"
+
+1358743106 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\src\hero.cpp
+	"include/Hero.h"
+	"include/Game.h"
+
+1358778455 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\src\inputboxes.cpp
+	"include/InputBoxes.h"
+	"include/GameScreen.h"
+
+1358790241 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\src\loggerclient.cpp
+	"include/LoggerClient.h"
+	"include/Game.h"
+
+1358738870 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\src\menu.cpp
+	"include/Menu.h"
+
+1358791894 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\src\object.cpp
+	"include/Object.h"
+	"include/Game.h"
+
+1342640058 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\src\sdlmappy.cpp
+	"include/SDLMappy.h"
+
+1345528794 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\src\soundmanager.cpp
+	"include/SoundManager.h"
+
+1358740118 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\src\textmanager.cpp
+	"include/TextManager.h"
+	"include/Game.h"
+
+1345103044 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\src\world.cpp
+	"include/World.h"
+	"include/Body.h"
+	"include/Object.h"
+	<iostream>
+
+1358737794 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\colheita\src\utils.cpp
+	"include/utils.h"
+
+1359233873 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\main.cpp
+	"include/utils.h"
+	"include/Game.h"
+	"include/Menu.h"
+
+1359136021 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\utils.h
+	"SDL\SDL.h"
+	"SDL\SDL_image.h"
+	"SDL\SDL_ttf.h"
+	"SDL\SDL_mixer.h"
+	"SDL\SDL_rotozoom.h"
+	"SDL\SDL_net.h"
+	<windows.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<SDL/SDL_rotozoom.h>
+	<SDL/SDL_net.h>
+	<iostream>
+	<iomanip>
+	<fstream>
+	<sstream>
+	<vector>
+	<map>
+	<algorithm>
+	<string>
+	<bitset>
+	<cstring>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<dirent.h>
+	<sys/stat.h>
+	"include/SDLMappy.h"
+	"include/MathUtils.h"
+
+1328012286 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\sdlmappy.h
+	<cstring>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<fstream>
+	<iostream>
+
+1328416972 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\world.h
+	<vector>
+	<map>
+	"MathUtils.h"
+	"Arbiter.h"
+
+1358984369 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\mathutils.h
+	<math.h>
+	<float.h>
+	<assert.h>
+	<stdlib.h>
+
+1236515296 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\arbiter.h
+	"MathUtils.h"
+
+1328011604 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\body.h
+	"MathUtils.h"
+	<vector>
+
+1359153363 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\game.h
+	"include/GameScreen.h"
+	"include/Hero.h"
+	"Python.h"
+	</usr/include/python2.7/Python.h>
+
+1359140923 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\gamescreen.h
+	"include/utils.h"
+	"include/InputBoxes.h"
+	"include/SoundManager.h"
+	"include/TextManager.h"
+	"include/LoggerClient.h"
+	"include/EposManager.h"
+
+1358778592 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\inputboxes.h
+	"include/utils.h"
+
+1345528794 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\soundmanager.h
+	"include/utils.h"
+
+1345528934 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\textmanager.h
+	"include/utils.h"
+
+1358697186 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\loggerclient.h
+	"include/utils.h"
+
+1358788917 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\eposmanager.h
+	"include/utils.h"
+	"include/EposCmdWindows.h"
+	"include/EposCmdUnix.h"
+	"include/WinTypes.h"
+	"include/ftd2xx.h"
+
+1344410986 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\eposcmdwindows.h
+
+1345210608 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\eposcmdunix.h
+
+1345210618 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\wintypes.h
+	<sys/time.h>
+
+1322483132 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\ftd2xx.h
+	<pthread.h>
+	"WinTypes.h"
+
+1359080375 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\hero.h
+	"include/Character.h"
+
+1359172251 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\character.h
+	"include/Object.h"
+	"include/Animation.h"
+
+1359172128 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\object.h
+	"include/utils.h"
+
+1359163818 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\animation.h
+	"include/utils.h"
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\python.h
+	"patchlevel.h"
+	"pyconfig.h"
+	"pymacconfig.h"
+	<limits.h>
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<stdlib.h>
+	<unistd.h>
+	<stddef.h>
+	<assert.h>
+	"pyport.h"
+	"pymath.h"
+	"pymem.h"
+	"object.h"
+	"objimpl.h"
+	"pydebug.h"
+	"unicodeobject.h"
+	"intobject.h"
+	"boolobject.h"
+	"longobject.h"
+	"floatobject.h"
+	"complexobject.h"
+	"rangeobject.h"
+	"stringobject.h"
+	"memoryobject.h"
+	"bufferobject.h"
+	"bytesobject.h"
+	"bytearrayobject.h"
+	"tupleobject.h"
+	"listobject.h"
+	"dictobject.h"
+	"enumobject.h"
+	"setobject.h"
+	"methodobject.h"
+	"moduleobject.h"
+	"funcobject.h"
+	"classobject.h"
+	"fileobject.h"
+	"cobject.h"
+	"pycapsule.h"
+	"traceback.h"
+	"sliceobject.h"
+	"cellobject.h"
+	"iterobject.h"
+	"genobject.h"
+	"descrobject.h"
+	"warnings.h"
+	"weakrefobject.h"
+	"codecs.h"
+	"pyerrors.h"
+	"pystate.h"
+	"pyarena.h"
+	"modsupport.h"
+	"pythonrun.h"
+	"ceval.h"
+	"sysmodule.h"
+	"intrcheck.h"
+	"import.h"
+	"abstract.h"
+	"compile.h"
+	"eval.h"
+	"pyctype.h"
+	"pystrtod.h"
+	"pystrcmp.h"
+	"dtoa.h"
+	"pyfpe.h"
+	<pth.h>
+
+1334110714 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\patchlevel.h
+
+1334110716 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\pyconfig.h
+	<io.h>
+	<stdlib.h>
+	<float.h>
+	<basetsd.h>
+	<io.h>
+	<stdio.h>
+
+1306745632 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\pymacconfig.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\pyport.h
+	"pyconfig.h"
+	<inttypes.h>
+	<stdint.h>
+	<stdlib.h>
+	<ieeefp.h>
+	<math.h>
+	<sys/time.h>
+	<time.h>
+	<sys/time.h>
+	<time.h>
+	<sys/select.h>
+	<sys/types.h>
+	"unixstuff.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<stat.h>
+	<sys/types.h>
+	<sys/termio.h>
+	<termios.h>
+	<osreldate.h>
+	<ctype.h>
+	<wctype.h>
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\pymath.h
+	"pyconfig.h"
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\pymem.h
+	"pyport.h"
+
+1330131500 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\object.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\objimpl.h
+	"pymem.h"
+
+1330131500 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\pydebug.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\unicodeobject.h
+	<stdarg.h>
+	<ctype.h>
+	<time.h>
+	<wchar.h>
+	<wctype.h>
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\intobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\boolobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\longobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\floatobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\complexobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\rangeobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\stringobject.h
+	<stdarg.h>
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\memoryobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\bufferobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\bytesobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\bytearrayobject.h
+	<stdarg.h>
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\tupleobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\listobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\dictobject.h
+
+1299587976 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\enumobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\setobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\methodobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\moduleobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\funcobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\classobject.h
+
+1330131500 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\fileobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\cobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\pycapsule.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\traceback.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\sliceobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\cellobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\iterobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\genobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\descrobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\warnings.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\weakrefobject.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\codecs.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\pyerrors.h
+	<stdarg.h>
+
+1330131500 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\pystate.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\pyarena.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\modsupport.h
+	<stdarg.h>
+
+1330131500 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\pythonrun.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\ceval.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\sysmodule.h
+
+1299587976 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\intrcheck.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\import.h
+
+1306745632 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\abstract.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\compile.h
+	"code.h"
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\code.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\eval.h
+
+1330131500 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\pyctype.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\pystrtod.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\pystrcmp.h
+
+1299588192 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\dtoa.h
+
+1299587976 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\python\pyfpe.h
+	<signal.h>
+	<setjmp.h>
+	<math.h>
+
+1358738774 c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\include\menu.h
+	"include/GameScreen.h"
+
+1359080949 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\src\animation.cpp
+	"include/Animation.h"
+
+1358603383 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\src\arbiter.cpp
+	"include/Arbiter.h"
+	"include/Body.h"
+	"include/World.h"
+
+1358603434 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\src\body.cpp
+	"include/Body.h"
+	<iostream>
+
+1359173744 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\src\character.cpp
+	"include/Character.h"
+	"include/Game.h"
+
+1342628742 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\src\collide.cpp
+	"include/Arbiter.h"
+	"include/Body.h"
+
+1359000988 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\src\eposmanager.cpp
+	"include/EposManager.h"
+
+1359234227 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\src\game.cpp
+	"include/Game.h"
+
+1359232619 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\src\gamescreen.cpp
+	"include/GameScreen.h"
+
+1359080344 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\src\hero.cpp
+	"include/Hero.h"
+	"include/Game.h"
+
+1359068554 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\src\inputboxes.cpp
+	"include/InputBoxes.h"
+	"include/GameScreen.h"
+
+1358790241 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\src\loggerclient.cpp
+	"include/LoggerClient.h"
+	"include/Game.h"
+
+1358738870 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\src\menu.cpp
+	"include/Menu.h"
+
+1359173718 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\src\object.cpp
+	"include/Object.h"
+	"include/Game.h"
+
+1342640058 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\src\sdlmappy.cpp
+	"include/SDLMappy.h"
+
+1359232861 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\src\soundmanager.cpp
+	"include/SoundManager.h"
+
+1358740118 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\src\textmanager.cpp
+	"include/TextManager.h"
+	"include/Game.h"
+
+1345103044 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\src\world.cpp
+	"include/World.h"
+	"include/Body.h"
+	"include/Object.h"
+	<iostream>
+
+1359165918 source:c:\users\leonardo\documents\jogos finalizados 17_12_2012\simples_engine\src\utils.cpp
+	"include/utils.h"
+

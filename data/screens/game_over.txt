@@ -1,0 +1,15 @@
+screen= "fazenda_2.png"
+
+music= "JogoIC3.ogg"
+
+title= "
+Tente Novamente !!" 100 0 255 0 80 3
+
+text= "Pontos:" 80 410 255 255 255 30 2
+number_box= 200 400 80 50 3 game_points 0 0 ""
+
+text= "Tempo:" 380 410 255 255 255 30 2
+number_box= 500 400 80 50 3 game_time 0 0 ""
+text= "segundos" 590 415 255 255 0 20 2
+
+return= main

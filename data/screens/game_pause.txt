@@ -1,0 +1,13 @@
+menu= "pause_menu.png"
+
+music= "JogoIC3fast.ogg"
+
+title= "Jogo Parado" 10 255 255 255 40 2
+
+button= 300 225 200 50 3 game "Retomar Jogo"
+
+button= 300 300 200 50 3 main "Tela Principal"
+
+button= 300 375 200 50 3 game_over "Terminar Jogo"
+
+return= game

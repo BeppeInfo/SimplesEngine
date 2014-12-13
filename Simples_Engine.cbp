@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Simples_Engine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Simples_Engine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="." />
+					<Add directory="include\Python" />
+					<Add directory="C:\Program Files\CodeBlocks\MinGW\include" />
+					<Add directory="C:\Program Files\CodeBlocks\MinGW\include\SDL" />
+				</Compiler>
+				<Linker>
+					<Add library="mingw32" />
+					<Add library="lib\EposCmd.lib" />
+					<Add library="lib\libSDLmain.a" />
+					<Add library="lib\libSDL.dll.a" />
+					<Add library="lib\SDL_image.lib" />
+					<Add library="lib\SDL_mixer.lib" />
+					<Add library="lib\SDL_net.lib" />
+					<Add library="lib\SDL_ttf.lib" />
+					<Add library="lib\libSDL_gfx.dll.a" />
+					<Add library="lib\python27.lib" />
+					<Add directory="C:\Program Files\CodeBlocks\MinGW\lib" />
+					<Add directory="C:\Program Files\CodeBlocks\MinGW\SDL\lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\Colheita_windows" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include\Animation.h" />
+		<Unit filename="include\Character.h" />
+		<Unit filename="include\EposManager.h" />
+		<Unit filename="include\Game.h" />
+		<Unit filename="include\GameScreen.h" />
+		<Unit filename="include\InputBoxes.h" />
+		<Unit filename="include\LoggerClient.h" />
+		<Unit filename="include\MathUtils.h" />
+		<Unit filename="include\Menu.h" />
+		<Unit filename="include\Object.h" />
+		<Unit filename="include\SDLMappy.h" />
+		<Unit filename="include\SoundManager.h" />
+		<Unit filename="include\TextManager.h" />
+		<Unit filename="include\WinTypes.h" />
+		<Unit filename="include\utils.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src\Animation.cpp" />
+		<Unit filename="src\Body.cpp" />
+		<Unit filename="src\Character.cpp" />
+		<Unit filename="src\EposManager.cpp" />
+		<Unit filename="src\Game.cpp" />
+		<Unit filename="src\GameScreen.cpp" />
+		<Unit filename="src\InputBoxes.cpp" />
+		<Unit filename="src\LoggerClient.cpp" />
+		<Unit filename="src\Menu.cpp" />
+		<Unit filename="src\Object.cpp" />
+		<Unit filename="src\SDLMappy.cpp" />
+		<Unit filename="src\SoundManager.cpp" />
+		<Unit filename="src\TextManager.cpp" />
+		<Unit filename="src\utils.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

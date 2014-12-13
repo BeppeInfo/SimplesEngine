@@ -1,0 +1,66 @@
+#include "include/GameScreen.h"
+
+#include "include/Game.h"
+
+SDL_Event GameScreen::event;
+bool GameScreen::press = false;
+bool GameScreen::click = false;
+
+SDL_Surface *GameScreen::screen = NULL;
+
+SoundManager &GameScreen::soundMng = SoundManager::Activate();
+TextManager &GameScreen::textMng = TextManager::Activate();
+//LoggerClient &GameScreen::logClt = LoggerClient::Activate();
+EposManager &GameScreen::eposMng = EposManager::Activate( false );
+
+string GameScreen::next_screen;
+
+GameScreen::GameScreen(string fundo)
+{
+    //ctor
+    next_screen.clear();
+
+    if( fundo == ROOTDIR + "data/textures/NULL" ) background = NULL;
+    else background = LoadImage(fundo);
+}
+
+GameScreen::~GameScreen()
+{
+    //dtor
+    SDL_FreeSurface( background );
+}
+
+bool GameScreen::Update(int time)
+{
+    if( click and event.key.keysym.sym == SDLK_ESCAPE )
+    {
+        next_screen = return_screen;
+        return true;
+    }
+
+    return false;
+}
+
+void GameScreen::Draw()
+{
+    if( background )
+        ApplySurface((screen->w - background->w)/2, (screen->h - background->h)/2, background, screen);
+
+    for( vector<ValueBox*>::iterator it = value_boxes.begin(); it != value_boxes.end(); ++it )
+        (*it)->Draw();
+}
+
+void GameScreen::CreateTextBox(int x, int y, int w, int h, int bw, string value_key)
+{
+    value_boxes.push_back( new TextTypeBox(x, y, w, h, bw, Game::string_values[value_key]) );
+}
+
+void GameScreen::CreateFileBox(int x, int y, int w, int h, int bw, string dir_name, string value_key)
+{
+    value_boxes.push_back( new FileSelectionBox(x, y, w, h, bw, dir_name, Game::string_values[value_key]) );
+}
+
+void GameScreen::CreateNumberBox(int x, int y, int w, int h, int bw, string value_key, int min_value, int max_value)
+{
+    value_boxes.push_back( new NumberSelectionBox(x, y, w, h, bw, Game::number_values[value_key], min_value, max_value) );
+}

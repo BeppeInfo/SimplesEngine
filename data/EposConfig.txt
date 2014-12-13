@@ -1,0 +1,37 @@
+EPOS:
+
+device_name= "EPOS1"
+
+protocol_stack_name= "MAXON_RS232"
+
+interface_name=	"RS232"
+
+port_name= "COM1"
+
+operation_mode= -1
+node_ID= 1
+baud_rate= 115200
+
+time_out= 100
+
+:EPOS
+
+
+
+EPOS:
+
+device_name= "EPOS2"
+
+protocol_stack_name= "MAXON_RS232"
+
+interface_name=	"RS232"
+
+port_name= "COM2"
+operation_mode= -3
+node_ID= 2
+baud_rate= 115200
+
+time_out= 100
+
+
+:EPOS

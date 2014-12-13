@@ -1,0 +1,8 @@
+screen= "fazenda_1.png"
+
+music= "JogoIC3.ogg"
+
+title= "
+Créditos" 200 0 255 0 70 3
+
+return= main

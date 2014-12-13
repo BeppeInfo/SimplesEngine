@@ -1,0 +1,75 @@
+sprite_sheet= "fortao.png"
+
+sprite_size= 32 32
+
+# parado direita 0
+ANIMATION: 
+first_last_frames= 7 7
+state_conditions= 4 8
+:ANIMATION
+
+# parado esquerda 1
+ANIMATION: 
+first_last_frames= 4 4
+state_conditions= 5 9
+:ANIMATION
+
+# parado baixo 2
+ANIMATION: 
+first_last_frames= 1 1
+state_conditions= 6 10
+:ANIMATION
+
+# parado cima 3
+ANIMATION: 
+first_last_frames= 10 10
+state_conditions= 7 11
+:ANIMATION
+
+# andar direita 4
+ANIMATION: 
+first_last_frames= 6 8
+speed= 30 0
+:ANIMATION
+
+# andar esquerda 5
+ANIMATION: 
+first_last_frames= 3 5
+speed= -30 0
+:ANIMATION
+
+# andar baixo 6
+ANIMATION: 
+first_last_frames= 0 2
+speed= 0 30
+:ANIMATION
+
+# andar cima 7
+ANIMATION: 
+first_last_frames= 9 11
+speed= 0 -30
+:ANIMATION
+
+# correr direita 8
+ANIMATION: 
+first_last_frames= 6 8
+speed= 100 0
+:ANIMATION
+
+# correr esquerda 9
+ANIMATION: 
+first_last_frames= 3 5
+speed= -100 0
+:ANIMATION
+
+# correr baixo 10
+ANIMATION: 
+first_last_frames= 0 2
+speed= 0 100
+:ANIMATION
+
+# correr cima 11
+ANIMATION: 
+first_last_frames= 9 11
+speed= 0 -100
+:ANIMATION

@@ -1,0 +1,37 @@
+sprite_size= 96 96
+
+ANIMATION:
+first_last_frames= 12 15
+speed= 0 -20
+:ANIMATION
+
+ANIMATION:
+first_last_frames= 0 3
+speed= 0 20
+:ANIMATION
+
+ANIMATION:
+first_last_frames= 4 7
+speed= -20 0
+:ANIMATION
+
+ANIMATION:
+first_last_frames= 8 11
+speed= 20 0
+:ANIMATION
+
+ANIMATION:
+first_last_frames= 12 15
+:ANIMATION
+
+ANIMATION:
+first_last_frames= 0 3
+:ANIMATION
+
+ANIMATION:
+first_last_frames= 4 7
+:ANIMATION
+
+ANIMATION:
+first_last_frames= 8 11
+:ANIMATION

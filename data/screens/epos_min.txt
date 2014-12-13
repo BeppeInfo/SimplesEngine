@@ -1,0 +1,11 @@
+menu= "fazenda_4.png"
+
+#titulo/(texto)= string (x) y {RGB} tamanho borda
+
+title= "Ajuste Posição Mínima da EPOS" 50 255 255 0 50 2
+
+button= 350 450 100 50 2 epos_max "OK"
+
+epos_box= 250 250 300 80 2 epos_value_min 0 0 1
+
+return= main

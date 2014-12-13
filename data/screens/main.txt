@@ -1,0 +1,33 @@
+menu= "fazenda_3.png"
+
+
+
+music= "JogoIC3.ogg"
+
+number_value= use_mouse 0
+
+# string_value= font_name "Ubuntu-R.ttf"
+
+string_value= button_icon "bricks.png"
+
+string_value= box_icon "caixa_texto.png"
+
+
+button= 300 275 200 50 3 settings "Configurações"
+
+
+button= 300 350 200 50 3 instructions "Instruções"
+
+
+button= 300 425 200 50 3 epos_min "Jogar"
+
+button= 300 500 200 50 3 credits "Créditos"
+
+title= "A 
+Colheita" 100 255 255 0 120 3
+
+number_value= total_game_time 30
+
+string_value= character "Espantalho"
+
+# string_value= server_address "192.168.1.106"

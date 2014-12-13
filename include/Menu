@@ -1,0 +1,57 @@
+#ifndef TEXTMANAGER_H
+#define TEXTMANAGER_H
+
+#include "include/utils.h"
+
+/*#if	defined _WIN32
+    #include "SDL\SDL.h"
+	#include "SDL\SDL_ttf.h"
+#else
+    #include <SDL/SDL.h>
+	#include <SDL/SDL_ttf.h>
+#endif*/
+
+//#include "include/MathUtils.h"
+
+//#include <iostream>
+//#include <string>
+//#include <map>
+//using namespace std;
+
+typedef struct TextProperty
+{
+    string text;
+    int x, y;
+    int r, g, b;
+    int size;
+} TextProperty;
+
+typedef pair</*const char**/string,int> font_key;
+
+class TextManager
+{
+    public:
+
+    static TextManager& Activate()
+        {
+            static TextManager txtmng;
+            return txtmng;
+        }
+
+        virtual ~TextManager();
+
+        void WriteText(string = "TESTE", int = 0, int = 0, uint8_t = 255, uint8_t = 255, uint8_t = 255,
+                       int = 20, /*const char**/string = /*"data/*/"UbuntuBetaNEW"/*.ttf"*/);
+
+        vector<TextProperty> text_cache;
+
+    private:
+        TextManager();
+        TextManager(const TextManager&);                 // Prevent copy-construction
+        TextManager& operator=(const TextManager&);      // Prevent assignment
+
+        map<font_key,TTF_Font*> font_cache;
+        SDL_Surface* textSurface;
+};
+
+#endif // TEXTMANAGER_H

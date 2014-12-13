@@ -1,0 +1,28 @@
+				VALORES STRING
+
+map_name: arquivo (.fmp ou .map) do mapa do jogo (por padrão, primeiro encontrado na pasta data/maps/)
+
+font_name: arquivo (.ttf) de fonte do jogo (por padrão, primeiro encontrado na pasta data/fonts/)
+
+character: arquivo (.txt) de configuração dos personagens (por padrão, primeiro encontrado na pasta data/chars/)
+
+item_icon: arquivo (imagem) de textura dos itens (por padrão, primeiro encontrado na pasta data/items/)
+
+button_icon: arquivo (imagem) de textura dos botões (por padrão, primeiro encontrado na pasta data/icons/)
+
+box_icon: arquivo (imagem) de textura das caixas de valores (por padrão, primeiro encontrado na pasta data/icons/)
+
+player_name: nome do jogador (por padrão, "Player")
+
+server_address: endereço do servidor gerador de log (por padrão, "localhost")
+
+				
+				VALORES NUMÉRICOS
+
+game_speed: multiplicador da velocidade do jogo (padrão: 1[x])
+
+port_number: porta usada para conexão com o servidor gerador de log (padrão: 2000)
+
+use_mouse: usar(1) ou não(0) cursor do mouse (padrão: 1)
+
+fps: número de frames por segundo em que o programa está rodando
